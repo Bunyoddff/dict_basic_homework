@@ -7,8 +7,9 @@ def oldest(people:dict):
         str: the name of the oldest person
     """
     k=0
-    v=0
     
+    v=0
+
     for i in people:
         x=people[i]
         if x>k:
