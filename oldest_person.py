@@ -6,4 +6,13 @@ def oldest(people:dict):
     Returns:
         str: the name of the oldest person
     """
-    return
+    k=0
+    v=0
+    for i in people:
+        x=people[i]
+        if x>k:
+            k=x
+            v=i
+    
+    return v
+print(oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}))
