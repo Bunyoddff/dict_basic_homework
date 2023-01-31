@@ -14,5 +14,6 @@ def oldest(people:dict):
             k=x
             v=i
     
+    
     return v
 print(oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}))
