@@ -12,6 +12,6 @@ def cities_dict(cities:list):
 
         for i in cities:
             d.setdefault(s,i)
-        s+=1
+            s+=1
     return d
 print(cities_dict(["Bukhara", "Khiva", "Namangan", "Samarkand", "Tashkent"]))
